@@ -6,8 +6,7 @@ import datetime
 
 # Using the provided Neon DB string
 SQLALCHEMY_DATABASE_URL = os.getenv(
-    "DATABASE_URL", 
-    "postgresql://neondb_owner:npg_trYQcy5Z0xpe@ep-floral-glitter-aplo4hf1.c-7.us-east-1.aws.neon.tech/neondb?sslmode=require"
+
 )
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
