@@ -7,18 +7,6 @@ MIN_AUC_THRESHOLD = 0.95
 FEEDBACK_WEIGHT_NAME = 'local_feedback_model.pth'
 
 DROPBOX_CLUSTER_CREDS = [
-    {
-        'name': 'Account_01',
-        'app_key': 'khk7l9vvlaylxcx',
-        'app_secret': 'm459gltp6yaspic',
-        'refresh_token': 'SIWvJLJuBnUAAAAAAAAAAfh2tA0b52XM3VMEjFlEABJmMWMfqr3yi945aNaNHo39'
-    },
-    {
-        'name': 'Account_02',
-        'app_key': 'rnoae6jj1bs66we',
-        'app_secret': '4yjajvz9ajiax4h',
-        'refresh_token': 'ZxSuV2l21AwAAAAAAAAAAdWblHU6TGAMmbrZj1rzSceha9PShqM4PsK7tNS_fO5i'
-    }
 ]
 
 class DropboxCluster:
