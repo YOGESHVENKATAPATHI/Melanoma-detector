@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+sqlalchemy
+psycopg2-binary
+pydantic
+timm
+torch
+torchvision
+dropbox
+albumentations
+opencv-python-headless
+pandas
+scikit-learn
+python-dotenv
